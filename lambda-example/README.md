@@ -1,4 +1,4 @@
 # core-java
 This repository contains tutorials on Core Java
 
-Please click on http://vestutorials.com for more details
+You can find the documentation on [VES Tutorials](http://vestutorials.com/java8-lambda-expression/)
