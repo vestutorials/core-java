@@ -8,6 +8,13 @@ import com.ves.default_static.method.model.Designation;
 import com.ves.default_static.method.model.Employee;
 import com.ves.default_static.method.model.Gender;
 
+/**
+ * This tutorials helps you to understand the default and static methods in an
+ * interface.
+ * 
+ * @author VES Tutorials
+ *
+ */
 public class Main {
 	public static void main(String[] args) {
 		IEmployee employeeService = new EmployeeImpl();
@@ -20,7 +27,7 @@ public class Main {
 		List<Employee> employeeList = employeeService.listAll();
 		employeeList.forEach(employee -> out
 				.println(employee.getId() + ", " + employee.getName() + ", " + employee.getDesignation()));
-		
+
 		Employee employee = employeeService.find(3);
 		System.out.println(employee);
 	}

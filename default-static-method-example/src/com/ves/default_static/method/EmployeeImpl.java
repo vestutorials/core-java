@@ -4,6 +4,12 @@ import java.util.List;
 
 import com.ves.default_static.method.model.Employee;
 
+/**
+ * Implementation for IEmployee interface.
+ * 
+ * @author VES Tutorials
+ *
+ */
 public class EmployeeImpl implements IEmployee {
 
 	@Override
